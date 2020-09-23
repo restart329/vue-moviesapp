@@ -1,0 +1,26 @@
+<template>
+  <div>
+    <Header title="我的龙猫"/>
+    <div id="content">
+       <Login/>
+    </div>
+    <TabBar/>
+  </div>
+</template>
+
+<script>
+import Header from '@/components/header'
+import TabBar from '@/components/tabbar'
+import Login from '@/components/Login'
+export default {
+  name: 'mine',
+  components: {
+    Header,
+    TabBar,
+    Login
+  }
+}
+</script>
+
+<style>
+</style>
