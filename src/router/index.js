@@ -3,6 +3,7 @@ import VueRouter from 'vue-router'
 import movierouter from './movie'
 import minerouter from './mine'
 import cinemarouter from './cinema'
+// import detailrouter from './detail'
 
 Vue.use(VueRouter)
 
